@@ -22,11 +22,25 @@ Desenvolvimento de aplicações Desktop com il no Windows
     
 ### Simples Hello World  
 
-Alguns comandos Git básicos são:
+Alguns comandos il básicos são:
 ```
-git status
-git add
-git commit
+.assembly extern mscorlib {}
+.assembly Hello {}
+.module Hello.exe
+
+.class Hello.Program
+extends [mscorlib]System.Object
+{
+ .method static void Main(string[] args)
+ cil managed
+ {
+  .entrypoint
+  ldstr "Hello World"
+  call void [mscorlib]System.Console::
+  WriteLine(string)
+  ret
+ }
+}
 ```
  
   
