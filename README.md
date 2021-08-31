@@ -24,7 +24,7 @@ Desenvolvimento de aplicações mobile com Flutter no Windows
 
     flutter doctor --android-licenses
     
-### Embed Lagoon in Rust application  
+### Simples Hello World  
   
     pub mod scheme;
 
