@@ -7,9 +7,10 @@ Desenvolvimento de aplicações Desktop com il no Windows
 
 ## Get Started
 
-### Executar o comando de verificação na linha de comnando do Windows.
+### Executar o comando de criar pasta na linha de comnando do Windows.
 
-    C:\Users\ferna>flutter doctor
+    C:\Users\ferna>mkdir Hello
+    cd Hello
     
     
 ### Aprovar as licenças do Android.
