@@ -15,7 +15,10 @@ Desenvolvimento de aplicações Desktop com il no Windows
     
 ### Abrir o Visual Studio 2019 ou 2022.
 
-    Criar um novo projeto Console para Windows
+    Criar um projeto
+    Aplicativo do Console (.NET FrameWork)
+    Nome do projeto : Hello
+    Criar
     
 ### Simples Hello World  
 
