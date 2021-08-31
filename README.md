@@ -25,24 +25,20 @@ Desenvolvimento de aplicações mobile com Flutter no Windows
     flutter doctor --android-licenses
     
 ### Simples Hello World  
+### Fibonacci number
+
+    /* fibonacci.poly */
+
+    func fib(n)
+    {
+        if (n == 1)
+            return 0;
+
+        if (n == 2)
+            return 1;
+
+        return fib(n-1) + fib(n-2);
+    }
+
   
-   import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Welcome to Flutter',
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Welcome to Flutter'),
-        ),
-        body: const Center(
-          child: Text('Hello World'),
-        ),
-      ),
-    );
-  }
-}
