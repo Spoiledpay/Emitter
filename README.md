@@ -27,7 +27,7 @@ Desenvolvimento de aplicações mobile com Flutter no Windows
 ### Simples Hello World  
 ### Fibonacci number
 
-    /* fibonacci.poly */
+   import 'package:flutter/material.dart';
 
     func fib(n)
     {
