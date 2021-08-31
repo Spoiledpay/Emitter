@@ -26,17 +26,23 @@ Desenvolvimento de aplicações mobile com Flutter no Windows
     
 ### Simples Hello World  
   
-    pub mod scheme;
+   import 'package:flutter/material.dart';
 
-    use scheme::interpreter::Interpreter;
+void main() => runApp(MyApp());
 
-    fn main() {
-        // Create an interpreter object
-        let mut interp = Interpreter::new();
-        
-        // Evaluate the expressions represented by a string
-        interp.eval_string("(+ 1 2 3)");
-                
-        // Run interpreter in REPL mode
-        interp.run_repl();
-    }
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Welcome to Flutter',
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('Welcome to Flutter'),
+        ),
+        body: const Center(
+          child: Text('Hello World'),
+        ),
+      ),
+    );
+  }
+}
