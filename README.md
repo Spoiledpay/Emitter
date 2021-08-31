@@ -13,12 +13,12 @@ Desenvolvimento de aplicações Desktop com il no Windows
     cd Hello
     
     
-### Abrir o Visual Studio 2019 ou 2022.
+### Abrir o Visual Studio Code.
 
     Criar um projeto
-    Aplicativo do Console (.NET FrameWork)
+    Arquivo > Novo Arquivo
     Nome do projeto : Hello
-    Criar
+    Salvar
     
 ### Simples Hello World  
 
