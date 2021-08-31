@@ -7,15 +7,15 @@ Desenvolvimento de aplicações Desktop com il no Windows
 
 ## Get Started
 
-### Executar o comando de criar pasta na linha de comnando do Windows.
+### Executar o comando de criar pasta na linha de comando do Windows.
 
     C:\Users\ferna>mkdir Hello
     cd Hello
     
     
-### Aprovar as licenças do Android.
+### Abrir o Visual Studio 2019 ou 2022.
 
-    flutter doctor --android-licenses
+    Criar um novo projeto Console para Windows
     
 ### Simples Hello World  
 
