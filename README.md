@@ -25,9 +25,9 @@ Desenvolvimento de aplicações mobile com Flutter no Windows
     flutter doctor --android-licenses
     
 ### Simples Hello World  
-### Fibonacci number
 
-   import 'package:flutter/material.dart';
+
+    /* fibonacci.poly */
 
     func fib(n)
     {
