@@ -3,7 +3,7 @@ Nova App
 
 ## Trabalhando com Flutter
 # https://flutter.dev/docs/get-started/install/windows
-A Scheme interpreter written in Rust
+Desenvolvimento de aplicações mobile com Flutter no Windows
 
 ## Get Started
 
