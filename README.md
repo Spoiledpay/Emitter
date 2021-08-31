@@ -20,9 +20,9 @@ A Scheme interpreter written in Rust
     [√] Connected device (2 available)
     • No issues found!
     
-### Execute a Scheme script (extension does not matter)
+### Aprovar as licenças do Android.
 
-    ./lagoon myscript.scm
+    flutter doctor --android-licenses
     
 ### Embed Lagoon in Rust application  
   
