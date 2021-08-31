@@ -17,7 +17,7 @@ Desenvolvimento de aplicações Desktop com il no Windows
 
     Criar um projeto
     Arquivo > Novo Arquivo
-    Nome do projeto : Hello
+    Nome do projeto : Hello.il
     Salvar
     
 ### Simples Hello World  
