@@ -26,19 +26,12 @@ Desenvolvimento de aplicações mobile com Flutter no Windows
     
 ### Simples Hello World  
 
-
-    /* fibonacci.poly */
-
-    func fib(n)
-    {
-        if (n == 1)
-            return 0;
-
-        if (n == 2)
-            return 1;
-
-        return fib(n-1) + fib(n-2);
-    }
-
+Alguns comandos Git básicos são:
+```
+git status
+git add
+git commit
+```
+ 
   
 
